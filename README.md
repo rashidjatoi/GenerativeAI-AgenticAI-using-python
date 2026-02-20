@@ -20,6 +20,8 @@ This repository contains practical examples, scripts, and best practices for bui
 - **Positional Encoding:** Encoding position information for transformer models
 - **Self-Attention Mechanism:** Understanding how transformers focus on relevant parts of input
 - **Zapier Automation:** Learned how Zapier works, how to connect apps and automate workflows, and created some flows for integrating AI outputs with other tools.
+- **Ollama:** Learned to run and manage local LLMs using Ollama, including model installation, prompt testing, and integration with Python workflows. Integrated Ollama Docker container with Open Web UI Docker container for seamless browser-based LLM interaction.
+- **Open Web UI:** Used Open Web UI for interacting with LLMs through a browser, customizing chat interfaces, and testing prompt engineering visually.
 
 - **Zero-shot Prompt:** Direct instructions, no examples
 - **One-shot Prompt:** One example provided

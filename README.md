@@ -20,13 +20,14 @@ This repository contains practical examples, scripts, and best practices for bui
 - **Positional Encoding:** Encoding position information for transformer models
 - **Self-Attention Mechanism:** Understanding how transformers focus on relevant parts of input
 
-## Prompt Engineering Examples
 - **Zero-shot Prompt:** Direct instructions, no examples
 - **One-shot Prompt:** One example provided
 - **Few-shot Prompt:** Multiple examples provided
 - **Chain-of-Thought Prompt:** Model is guided to reason step-by-step
 - **Strict Topic Assistant:** AI answers only questions related to a specific topic
 - **JSON Output Prompt:** Enforcing structured output for easy parsing
+
+- **Persona Prompt:** The AI assistant takes on a specific persona (e.g., Rashid Ali) and answers as that character, demonstrating how to guide model behavior and style.
 
 ## Coding Practices
 - Use `.env` files for API keys and secrets (never commit `.env` to git)
@@ -56,24 +57,3 @@ This repository contains practical examples, scripts, and best practices for bui
 - `.env` is excluded via `.gitignore`.
 - If secrets are accidentally committed, remove them from git history (see [GitHub guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)).
 
----
-Feel free to expand this README as you learn more or add new scripts!
-   ```
-2. Add your API keys to `.env`:
-   ```
-   OPENAI_API_KEY=your_openai_api_key_here
-   ```
-3. Run any script, e.g.:
-   ```
-   python 03_prompts/zero_shot_prompt.py
-   ```
-
-## Further Reading
-- See `learings.txt` for a quick list of concepts
-- Explore each directory for code examples and detailed scripts
-
-## Author
-GitHub Copilot (GPT-4.1)
-
----
-Feel free to expand this README as you learn more or add new scripts!

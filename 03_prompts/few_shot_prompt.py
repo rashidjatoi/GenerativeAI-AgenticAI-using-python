@@ -69,12 +69,7 @@ response = client.chat.completions.create(
 # Extract and print the assistant's reply from the response object.
 # The response.choices list contains possible completions; we use the first one.
 print(response.choices[0].message.content)
-    model="gpt-4o",  # Specify the model to use (e.g., gpt-4o, gpt-3.5-turbo, etc.)
-    messages=[
-        {"role": "system", "content": SYSTEM_PROMPT},  # System prompt for assistant behavior and examples
-        {"role": "user", "content": "write code to multiply two numbers"}  # User's question
-    ]
-)
+  
 
 # Extract and print the assistant's reply from the response object.
 # The response.choices list contains possible completions; we use the first one.

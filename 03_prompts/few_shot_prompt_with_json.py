@@ -1,5 +1,12 @@
-# Few-shot prompting: Providing the model with several examples of the desired behavior in addition to instructions.
-# This script demonstrates how to use a few-shot prompt with OpenAI's API.
+
+# -------------------------------------------------------------
+# Few-Shot Prompt with JSON Output (with detailed comments)
+# -------------------------------------------------------------
+# This script demonstrates few-shot prompting, where the AI assistant
+# is guided by multiple examples in the prompt and must respond in a
+# strict JSON format for easy parsing and integration.
+# -------------------------------------------------------------
+
 
 
 # Import the OpenAI client class to make API requests to the OpenAI models.
@@ -8,14 +15,17 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 
+
 # Load environment variables from a .env file into the system environment.
 # This is useful for keeping sensitive information (like API keys) out of your codebase.
 load_dotenv()
 
 
 
+
 # Create an authenticated OpenAI client using the API key from environment variables.
 client = OpenAI()
+
 
 
 
@@ -48,6 +58,7 @@ A: {"code": null, "isCodingQuestion": false}
 Q: hey, write a code in python for adding two numbers?
 A: {"code": "def add(a, b):\n    return a + b", "isCodingQuestion": true}
 """
+
 
 
 # Prepare the chat completion request to the model.

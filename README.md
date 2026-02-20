@@ -56,10 +56,6 @@ This repository contains practical examples, scripts, and best practices for bui
 - `.env` is excluded via `.gitignore`.
 - If secrets are accidentally committed, remove them from git history (see [GitHub guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)).
 
-## Author
-- Rashid Jatoi
-- Assisted by GitHub Copilot (GPT-4.1)
-
 ---
 Feel free to expand this README as you learn more or add new scripts!
    ```

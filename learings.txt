@@ -7,4 +7,4 @@
 - scalable AI apps
 - Vector Embedding
 - Positional Encoding
-- Self Attenion Mechanisim 
+- Self Attenion Mechanisims 

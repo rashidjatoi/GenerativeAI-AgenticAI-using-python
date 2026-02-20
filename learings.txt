@@ -1,0 +1,10 @@
+- Tokenization
+- Basic AI Calls
+- Prompt Engineering
+- Agents
+- RAG
+- Vector DBs
+- scalable AI apps
+- Vector Embedding
+- Positional Encoding
+- Self Attenion Mechanisim 

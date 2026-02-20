@@ -1,59 +1,67 @@
-#######################################################################
-# Generative & Agentic AI Coding Learnings
-#
-# This README is designed for learning purposes. It explains all the key
-# concepts, coding techniques, prompt engineering strategies, and best
-# practices covered in this workspace. Each section is commented for clarity.
-#######################################################################
+# Generative & Agentic AI using Python
 
-# -----------------------------
-# Directory Structure
-# -----------------------------
-# - `01_tokenization/`: Contains scripts and explanations about tokenization,
-#   which is the process of breaking text into tokens for model input.
-# - `02_openai_hello/`: Demonstrates basic API calls to OpenAI and Gemini,
-#   image generation, and strict-topic assistants.
-# - `03_prompts/`: Focuses on prompt engineering, including zero-shot,
-#   one-shot, few-shot, chain-of-thought, and JSON output prompts.
-# - `ATTENTIONS ALL YOU NEED`: Covers attention mechanisms and advanced AI concepts.
+This repository contains practical examples, scripts, and best practices for building modern AI applications using Python, OpenAI, Gemini, and related tools. It covers prompt engineering, agentic AI, retrieval-augmented generation (RAG), vector databases, and advanced transformer concepts.
 
-# -----------------------------
-# Key Concepts Learned
-# -----------------------------
-# - **Tokenization:** Essential for preparing text for AI models.
-# - **Basic AI Calls:** How to interact with OpenAI and Gemini APIs.
-# - **Prompt Engineering:** Crafting prompts for different learning modes.
-# - **Agents:** Building agentic AI that can reason and act autonomously.
-# - **RAG:** Retrieval-Augmented Generation, combining search and generation.
-# - **Vector DBs:** Using vector databases for semantic search.
-# - **Scalable AI Apps:** Designing robust, scalable AI applications.
-# - **Vector Embedding:** Representing data as vectors for similarity search.
-# - **Positional Encoding:** Used in transformers to encode sequence position.
-# - **Self-Attention Mechanism:** Allows models to focus on relevant input parts.
+## Directory Structure
+- `01_tokenization/` — Tokenization basics and code examples
+- `02_openai_hello/` — OpenAI and Gemini API usage, image generation, strict-topic assistants
+- `03_prompts/` — Prompt engineering: zero-shot, one-shot, few-shot, chain-of-thought, JSON output
+- `ATTENTIONS ALL YOU NEED` — Attention mechanisms and advanced AI concepts
 
-# -----------------------------
-# Prompt Engineering Examples
-# -----------------------------
-# - **Zero-shot Prompt:** Direct instructions, no examples.
-# - **One-shot Prompt:** One example provided.
-# - **Few-shot Prompt:** Multiple examples provided.
-# - **Chain-of-Thought Prompt:** Guides the model to reason step-by-step.
-# - **Strict Topic Assistant:** AI answers only questions related to a specific topic.
-# - **JSON Output Prompt:** Enforces structured output for easy parsing.
+## Key Concepts
+- **Tokenization:** How text is split into tokens for model input
+- **Basic AI Calls:** Making API requests to OpenAI and Gemini models
+- **Prompt Engineering:** Zero-shot, one-shot, few-shot, chain-of-thought, and structured prompts
+- **Agents:** Building agentic AI that can reason and act
+- **RAG (Retrieval-Augmented Generation):** Combining search and generation for better answers
+- **Vector DBs:** Using vector databases for semantic search and retrieval
+- **Scalable AI Apps:** Designing AI applications for scalability and robustness
+- **Vector Embedding:** Representing text and data as vectors for similarity search
+- **Positional Encoding:** Encoding position information for transformer models
+- **Self-Attention Mechanism:** Understanding how transformers focus on relevant parts of input
 
-# -----------------------------
-# Coding Practices
-# -----------------------------
-# - Use `.env` files for API keys and secrets to keep credentials secure.
-# - Modularize code for clarity and reuse.
-# - Add detailed comments for each script to aid learning.
-# - Use Python virtual environments for dependency management.
+## Prompt Engineering Examples
+- **Zero-shot Prompt:** Direct instructions, no examples
+- **One-shot Prompt:** One example provided
+- **Few-shot Prompt:** Multiple examples provided
+- **Chain-of-Thought Prompt:** Model is guided to reason step-by-step
+- **Strict Topic Assistant:** AI answers only questions related to a specific topic
+- **JSON Output Prompt:** Enforcing structured output for easy parsing
 
-# -----------------------------
-# How to Run
-# -----------------------------
-# 1. Install dependencies:
-#    pip install openai python-dotenv
+## Coding Practices
+- Use `.env` files for API keys and secrets (never commit `.env` to git)
+- Modularize code for clarity and reuse
+- Add detailed comments for each script
+- Use Python virtual environments for dependency management
+
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install openai python-dotenv
+   ```
+2. Add your API keys to `.env` (do not commit this file):
+   ```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ANTHROPIC_API_KEY=your_anthropic_api_key_here
+   HUGGINGFACE_TOKEN=your_huggingface_token_here
+   ```
+3. Run any script, e.g.:
+   ```bash
+   python 03_prompts/zero_shot_prompt.py
+   ```
+
+## Security
+- **Never commit your `.env` file or secrets to git.**
+- `.env` is excluded via `.gitignore`.
+- If secrets are accidentally committed, remove them from git history (see [GitHub guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)).
+
+## Author
+- Rashid Jatoi
+- Assisted by GitHub Copilot (GPT-4.1)
+
+---
+Feel free to expand this README as you learn more or add new scripts!
    ```
 2. Add your API keys to `.env`:
    ```

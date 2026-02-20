@@ -19,6 +19,7 @@ This repository contains practical examples, scripts, and best practices for bui
 - **Vector Embedding:** Representing text and data as vectors for similarity search
 - **Positional Encoding:** Encoding position information for transformer models
 - **Self-Attention Mechanism:** Understanding how transformers focus on relevant parts of input
+- **Zapier Automation:** Learned how Zapier works, how to connect apps and automate workflows, and created some flows for integrating AI outputs with other tools.
 
 - **Zero-shot Prompt:** Direct instructions, no examples
 - **One-shot Prompt:** One example provided

@@ -1,4 +1,3 @@
-
 # Generative & Agentic AI using Python
 
 This repository is a comprehensive collection of practical code, concepts, and workflows for building modern AI applications using Python. It covers everything from the basics of tokenization to advanced prompt engineering, agentic AI, automation, and integration with popular tools and platforms.
@@ -51,6 +50,12 @@ Set up and managed local LLMs using Ollama, including model installation, prompt
 
 ### Prompt Serialization Styles
 Explored different prompt serialization formats (Alpaca, ChatML, INST) to ensure compatibility with various LLMs and platforms. See `04_prompt_serialization_styles/prompt_styles.py` for detailed examples and comments.
+
+### OpenAI Playground
+Experimented with the OpenAI Playground to interactively test prompts, visualize model responses, and fine-tune prompt engineering before coding. This tool helped in rapid prototyping and understanding model behavior in a user-friendly web interface.
+
+### Google Colab
+Used Google Colab for running Python notebooks in the cloud, leveraging free GPU resources for model experimentation, data processing, and collaborative AI development. Integrated Colab with APIs and external datasets for end-to-end workflows.
 
 ## Coding & Security Best Practices
 - Use `.env` files for API keys and secrets (never commit `.env` to git)

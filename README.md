@@ -57,6 +57,9 @@ Experimented with the OpenAI Playground to interactively test prompts, visualize
 ### Google Colab
 Used Google Colab for running Python notebooks in the cloud, leveraging free GPU resources for model experimentation, data processing, and collaborative AI development. Integrated Colab with APIs and external datasets for end-to-end workflows.
 
+### Weather Agent Project
+Developed a conversational weather agent that uses chain-of-thought prompting and tool use. The agent can reason step-by-step, call external tools (like a weather API or shell commands), and return answers in a structured JSON format. Integrated OpenAI's API, Pydantic for output validation, and demonstrated how to build flexible, tool-using AI assistants. This project showcases advanced prompt engineering, tool-calling logic, and real-world API integration for practical AI workflows.
+
 ## Coding & Security Best Practices
 - Use `.env` files for API keys and secrets (never commit `.env` to git)
 - Modularize code for clarity and reuse

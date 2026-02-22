@@ -22,3 +22,39 @@ Cloud & DevOps: Azure (Functions, Cosmos DB), GitHub Actions, Docker.
 60% Performance Boost: Engineered Redis caching and optimized database structures to reduce infrastructure load.
 
 3x Workflow Acceleration: Automated mission-critical business processes using BPM and Python-based orchestration.
+
+
+langgraph
+mastra.ai
+autogen
+crewai
+custom orchestration (no framework)
+
+
+RAG pipelines 
+Embeddding and chunking strategy 
+Retriveal tunning 
+memory / conversation history handling 
+vector database integration
+evaluation /evals framework
+
+
+
+vector database
+pinecone 
+weaviate
+qdrant
+pgvector
+chromadb
+
+
+Conversational UI experence
+
+Built streaming chat uis in react / next.js
+implemented server-sent events or webhocks
+managed task progress states in ui
+built real time feedback/ typing indicator
+
+
+AI agents ( tool calling, multi step workflows, )
+llms debugging via logs / evals

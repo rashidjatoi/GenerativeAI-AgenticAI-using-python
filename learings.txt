@@ -8,3 +8,12 @@
 - Vector Embedding
 - Positional Encoding
 - Self Attenion Mechanisims 
+
+
+Starting docker using docker compose 
+
+
+docker compose up   // start docker compose
+
+
+docker compose up -d    // detach mode
